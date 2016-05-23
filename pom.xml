@@ -20,7 +20,7 @@
 				<executions>
 					<execution>
 						<id>jmeter-tests</id>
-						<phase>integration-test</phase>
+						<phase>verify</phase>
 						<goals>
 							<goal>jmeter</goal>
 						</goals>
