@@ -13,9 +13,12 @@
 			<plugin>
 				<groupId>com.lazerycode.jmeter</groupId>
 				<artifactId>jmeter-maven-plugin</artifactId>
-				<version>1.4.1</version>
+				<version>1.9.0</version>
 				<configuration>
 					<testResultsTimestamp>false</testResultsTimestamp>
+                                      <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
+                                      <suppressJMeterOutput>false</suppressJMeterOutput>
+                                      <ignoreResultFailures>true</ignoreResultFailures>
 				</configuration>
 				<executions>
 					<execution>
@@ -27,6 +30,23 @@
 					</execution>
 				</executions>
 			</plugin>
+                    <plugin>
+          <groupId>com.lazerycode.jmeter</groupId>
+          <artifactId>jmeter-analysis-maven-plugin</artifactId>
+          <executions>
+            <execution>
+              <phase>verify</phase>
+              <goals>
+                <goal>analyze</goal>
+              </goals>
+              <configuration>
+                <source>${project.build.directory}/**/*.jtl</source>
+
+                <targetDirectory>${project.build.directory}/results</targetDirectory>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
 		</plugins>
 	</build>
 </project>
