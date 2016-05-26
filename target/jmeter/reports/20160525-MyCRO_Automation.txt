@@ -1,0 +1,31 @@
+MyCRO
+  time: 20160525T180137-0700 - 20160525T180142-0700
+  total duration:       5
+  requests:             100
+  requests per second:  20
+  response duration (ms)
+    min:                1
+    average:            47
+    max:                419
+    standard deviation: 46
+    quantiles (ms)
+         10%       36
+         20%       37
+         30%       37
+         40%       38
+         50%       39
+         60%       41
+         70%       45
+         80%       48
+         90%       53
+         99%      310
+       99.9%      310
+      100.0%      419 (max. value)
+  response size (bytes)
+    total:              256526
+    min:                316
+    average:            2565
+    max:                14200
+    standard deviation: 3775
+  response status codes
+    200:                 100 (100%)

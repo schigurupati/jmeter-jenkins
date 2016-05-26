@@ -14,12 +14,6 @@
             <artifactId>jmeter-maven-plugin</artifactId>
             <version>1.9.1</version>
             <executions>
-                <execution>
-                    <id>jmeter-tests</id>
-                    <phase>verify</phase>
-                    <goals>
-                        <goal>jmeter</goal>
-                    </goals>
         <execution>
     <id>jmeter-tests</id>
     <phase>verify</phase>
@@ -36,25 +30,47 @@
         </propertiesJMeter>
     </configuration>
 </execution>
-            </plugin>
+</executions>
+ </plugin>
+           <plugin>
 
-            <plugin>
-          <groupId>com.lazerycode.jmeter</groupId>
-          <artifactId>jmeter-analysis-Maven-plugin</artifactId>
-          <executions>
-            <execution>
-              <phase>verify</phase>
-              <goals>
+    <groupId>com.lazerycode.jmeter</groupId>
+
+    <artifactId>jmeter-analysis-maven-plugin</artifactId>
+
+    <version>1.0.1</version>
+
+    <executions>
+
+        <execution>
+
+            <phase>verify</phase>
+
+            <goals>
+
                 <goal>analyze</goal>
-              </goals>
-              <configuration>
-                <source>${project.build.directory}/**/*.jtl</source>
-                <targetDirectory>${project.build.directory}/testresults/</targetDirectory>
-              </configuration>
-            </execution>
-           </executions>
-        </plugin>
 
+            </goals>
+
+            <configuration>
+
+                <source>${project.build.directory}/jmeter/results/*</source>
+
+                <targetDirectory>${project.build.directory}/jmeter/reports</targetDirectory>
+
+                <generateCSVs>true</generateCSVs>
+
+                <generateCharts>true</generateCharts>
+
+                <processAllFilesFound>true</processAllFilesFound>
+
+            </configuration>
+
+        </execution>
+
+    </executions>
+
+</plugin>
     </plugins>
 </build>
 	
