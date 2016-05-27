@@ -56,22 +56,6 @@
                 </executions>
              </plugin>
 
-<plugin>
-                <groupId>de.codecentric</groupId>
-                <artifactId>jmeter-graph-maven-plugin</artifactId>
-                <version>0.1.0</version>
-                <executions>
-                    <execution>
-                        <id>create-graph-threads</id>
-                        <goals>
-                            <goal>create-graph</goal>
-                        </goals>
-                        <phase>verify</phase>
-                    </execution>
-                </executions>
-                            </plugin>
-
-
-          </plugins>
+</plugins>
 	</build>
 </project>
