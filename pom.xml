@@ -7,55 +7,56 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>jmeter-jenkins</name>
 	<url>http://maven.apache.org</url>
-<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-		</dependency>
-	</dependencies>
+	 <configuration>
+  
+    <testResultsTimestamp>false</testResultsTimestamp>
+ 
+    <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
+ 
+    <suppressJMeterOutput>false</suppressJMeterOutput>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>com.lazerycode.jmeter</groupId>
-				<artifactId>jmeter-maven-plugin</artifactId>
-				<version>1.10.1</version>
-				<configuration>
-					<testResultsTimestamp>false</testResultsTimestamp>
-                                      <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
-                                      <suppressJMeterOutput>false</suppressJMeterOutput>
-                                      <ignoreResultFailures>true</ignoreResultFailures>
-				</configuration>
-				<executions>
-			       <execution>
-						<id>jmeter-tests</id>
-						<phase>verify</phase>
-						<goals>
-						<goal>jmeter</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
+    <ignoreResultFailures>true</ignoreResultFailures>
+  </configuration>
+<build>
+        <plugins>
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
-                <artifactId>jmeter-analysis-maven-plugin</artifactId>
-                <version>1.0.4</version>
-                <configuration>
-                    <source>${project.build.directory}/**/*.jtl</source>
-                </configuration>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>1.9.1</version>
                 <executions>
                     <execution>
-                        <id>create-html-report</id>
+                        <id>jmeter-test</id>
                         <phase>verify</phase>
                         <goals>
-                            <goal>analyze</goal>
+                            <goal>jmeter</goal>
                         </goals>
                     </execution>
                 </executions>
-             </plugin>
-
-</plugins>
-	</build>
+                 <dependencies>
+                    <dependency>
+                        <groupId>org.apache.activemq</groupId>
+                        <artifactId>activemq-all</artifactId>
+                        <version>5.9.0</version>
+                    </dependency>
+                    <dependency>
+                    <groupId>kg.apc</groupId>
+                   <artifactId>jmeter-plugins</artifactId>
+                  <version>1.0.0</version>
+                   <exclusions>
+       
+        <exclusion>
+            <groupId>kg.apc</groupId>
+            <artifactId>perfmon</artifactId>
+        </exclusion>
+  
+        <exclusion>
+            <groupId>org.apache.jmeter</groupId>
+            <artifactId>jorphan</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+        </plugin>
+        </plugins>
+    </build>
 </project>
