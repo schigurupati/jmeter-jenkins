@@ -1,0 +1,101 @@
+uri;count;total;min;average;max;standarddeviation;persecond;errors
+"INPRO15.1: 60+ Day Delinquency - DELQ_60PLUS";1;25;25;25;25;0;0;0
+"INPRO13.2: Cumulative Net Charge Off - CUM_LOSS_COVERAGE";1;26;26;26;26;0;0;0
+"Insikt Loans LendingClub : Loan term :30,60 : DELQ_30PLUS - Annual";1;46;46;46;46;0;0;0
+"INPRO15.1: 60+ Day Delinquency - DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INLCM15.2: 60+ Day Delinquency - DELQ_60PLUS";1;25;25;25;25;0;0;0
+"INPRO13.1: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.2: 60+ Day Delinquency - DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.1: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"invest/cro/cro.html";1;188;188;188;188;0;0;0
+"INLCM15.2: Cumulative Net Charge Off  - CUM_LOSS_FORECAST";1;26;26;26;26;0;0;0
+"Insikt Loans Prosper:Loan term :60 : DELQ_30PLUS - Monthly";1;45;45;45;45;0;0;0
+"Insikt Loans Prosper: Quarterly: Loan term :30,60 -CUM_LOSS";1;48;48;48;48;0;0;0
+"INPRO13.1: Cumulative Net Charge Off - CUM_LOSS_COVERAGE";1;26;26;26;26;0;0;0
+"INLCM15.2: 60+ Day Delinquency - DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"Insikt Loans LendingClub : Loan term :30,60 : DELQ_30PLUS - Quarterly";1;49;49;49;49;0;0;0
+"INPRO15.1: Cumulative Net Charge Off - CUM_LOSS_COVERAGE";1;25;25;25;25;0;0;0
+"INPRO15.1: 30+ Day Delinquency - DELQ_30PLUS";1;25;25;25;25;0;0;0
+"INPRO14.2: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE";1;26;26;26;26;0;0;0
+"INPRO13.2: Cumulative Net Charge Off - CUM_LOSS";1;26;26;26;26;0;0;0
+"INPRO14.2: Cumulative Net Charge Off - CUM_LOSS_FORECAST";1;26;26;26;26;0;0;0
+"Insikt Loans LendingClub : DELQ_30PLUS : Monthly +36,60 +Prosper";1;92;92;92;92;0;0;0
+"INLCM15.3: 30+ Day Delinquency -  DELQ_30PLUS";1;26;26;26;26;0;0;0
+"Insikt Loans LendingClub : Loan term :36 : DELQ_30PLUS - Monthly";1;95;95;95;95;0;0;0
+"Insikt Loans Prosper:Loan term :30,60 : DELQ_30PLUS - Quarterly";1;50;50;50;50;0;0;0
+"INPRO13.2: Cumulative Net Charge Off - CUM_LOSS_FORECAST";1;24;24;24;24;0;0;0
+"Insikt Loans Prosper: Quarterly: Loan term : 60";1;44;44;44;44;0;0;0
+"Insikt Loans LendingClub : Loan term :36 : DELQ_30PLUS - Quarterly";1;49;49;49;49;0;0;0
+"Insikt Loans Prosper:Loan term :36 : DELQ_30PLUS - Monthly";1;176;176;176;176;0;0;0
+"INPRO14.1: 60+ Day Delinquency - DELQ_60PLUS";1;25;25;25;25;0;0;0
+"INPRO14.1: Cumulative Net Charge Off - CUM_LOSS";1;25;25;25;25;0;0;0
+"INPRO13.2: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"INPRO13.2: 60+ Day Delinquency - DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"Insikt Loans LendingClub: Monthly: Loan term :30,60- DELQ_30PLUS";1;92;92;92;92;0;0;0
+"front-page";1;850;850;850;850;0;0;0
+"INLCP15.3: Cumulative Net Charge Off - CUM_LOSS_COVERAGE";1;27;27;27;27;0;0;0
+"INPRO13.1: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"INPRO15.1: Cumulative Net Charge Off - CUM_LOSS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.2: 30+ Day Delinquency - DELQ_30PLUS";1;26;26;26;26;0;0;0
+"INPRO13.2: 30+ Day Delinquency - DELQ_30PLUS";1;25;25;25;25;0;0;0
+"INPRO13.2: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;25;25;25;25;0;0;0
+"Insikt Loans Prosper: DELQ_30PLUS : Monthly +36,60 +Prosper";1;135;135;135;135;0;0;0
+"Insikt Loans Prosper:Loan term :30,60 : DELQ_30PLUS - Monthly";1;240;240;240;240;0;0;0
+"Insikt Loans Prosper:Loan term :36 : DELQ_30PLUS - Quarterly";1;55;55;55;55;0;0;0
+"Insikt Loans LendingClub : Loan term :36 : DELQ_30PLUS - Annual";1;46;46;46;46;0;0;0
+"INPRO13.1: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;24;24;24;24;0;0;0
+"INPRO13.2: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"INLCM15.3: 60+ Day Delinquency -  DELQ_60PLUS";1;25;25;25;25;0;0;0
+"INLCP15.3: Cumulative Net Charge Off - CUM_LOSS";1;26;26;26;26;0;0;0
+"invest/index.html";1;23;23;23;23;0;0;0
+"Insikt Loans LendingClub : Loan term :60 : DELQ_30PLUS - Annual";1;46;46;46;46;0;0;0
+"INPRO14.1: 30+ Day Delinquency - DELQ_30PLUS";1;25;25;25;25;0;0;0
+"INLCM15.2: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;24;24;24;24;0;0;0
+"INPRO14.2: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"Insikt Loans LendingClub : Loan term :30,60 : DELQ_30PLUS - Monthly";1;134;134;134;134;0;0;0
+"INLCM15.3: 60+ Day Delinquency -  DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.2: Cumulative Net Charge Off - CUM_LOSS";1;26;26;26;26;0;0;0
+"INPRO13.1: 60+ Day Delinquency - DELQ_60PLUS";1;25;25;25;25;0;0;0
+"Insikt Loans Prosper:Loan term :36 : DELQ_30PLUS - Annual";1;47;47;47;47;0;0;0
+"Insikt Loans Prosper: Quarterly: Loan term : 36";1;48;48;48;48;0;0;0
+"Insikt Loans LendingClub: Annual: Loan term :30,60 - DELQ_30PLUS";1;46;46;46;46;0;0;0
+"Insikt Loans LendingClub : DELQ_30PLUS : Monthly +60 +Prosper";1;133;133;133;133;0;0;0
+"INPRO14.2: Cumulative Net Charge Off - CUM_LOSS_COVERAGE";1;25;25;25;25;0;0;0
+"Insikt Loans Prosper:Loan term :60 : DELQ_30PLUS - Quarterly";1;46;46;46;46;0;0;0
+"INPRO14.1: Cumulative Net Charge Off - CUM_LOSS_FORECAST";1;25;25;25;25;0;0;0
+"INLCM15.3: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;24;24;24;24;0;0;0
+"INPRO15.1: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INLCM15.2: Cumulative Net Charge Off  - CUM_LOSS";1;25;25;25;25;0;0;0
+"Insikt Loans LendingClub: Quarterly: Loan term :30,60 -CUM_LOSS";1;86;86;86;86;0;0;0
+"INPRO13.1: 60+ Day Delinquency - DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.2: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.1: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;24;24;24;24;0;0;0
+"Insikt Loans Prosper: DELQ_30PLUS : Monthly +60 +Prosper";1;45;45;45;45;0;0;0
+"INLCP15.3: Cumulative Net Charge Off - CUM_LOSS_FORECAST";1;25;25;25;25;0;0;0
+"mycro configuration";1;27;27;27;27;0;0;0
+"INPRO15.1: Cumulative Net Charge Off - CUM_LOSS";1;25;25;25;25;0;0;0
+"Insikt Loans LendingClub : Loan term :60 : DELQ_30PLUS - Quarterly";1;48;48;48;48;0;0;0
+"INLCM15.3: 60+ Day Delinquency -  DELQ_60PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"Insikt Loans Prosper: Annual: Loan term :30,60 -DELQ_30PLUS";1;46;46;46;46;0;0;0
+"INPRO13.1: Cumulative Net Charge Off - CUM_LOSS_FORECAST";1;25;25;25;25;0;0;0
+"INLCM15.3: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;26;26;26;26;0;0;0
+"Insikt Loans Prosper:Loan term :60 : DELQ_30PLUS - Annual";1;45;45;45;45;0;0;0
+"INPRO15.1: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"INLCM15.2: 30+ Day Delinquency - DELQ_30PLUS";1;26;26;26;26;0;0;0
+"INLCM15.2: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INLCM15.2: Cumulative Net Charge Off  - CUM_LOSS_COVERAGE";1;25;25;25;25;0;0;0
+"INPRO13.1: 30+ Day Delinquency - DELQ_30PLUS";1;25;25;25;25;0;0;0
+"Insikt Loans LendingClub: 30+ Day Delinquency: Loan term :30,60";1;48;48;48;48;0;0;0
+"INPRO14.1: Cumulative Net Charge Off - CUM_LOSS_COVERAGE";1;25;25;25;25;0;0;0
+"Insikt Loans Prosper: 30+ Day Delinquency: Loan term :30,60 - CUM_LOSS";1;727;727;727;727;0;0;0
+"INPRO14.1: 30+ Day Delinquency - DELQ_30PLUS_FORECAST";1;24;24;24;24;0;0;0
+"INLCM15.2: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE";1;25;25;25;25;0;0;0
+"INPRO15.1: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE";1;24;24;24;24;0;0;0
+"Debug Sampler";1;0;0;0;0;0;0;0
+"INPRO14.1: 60+ Day Delinquency - DELQ_60PLUS_FORECAST";1;25;25;25;25;0;0;0
+"INPRO14.2: 60+ Day Delinquency - DELQ_60PLUS";1;26;26;26;26;0;0;0
+"Insikt Loans LendingClub : Loan term :60 : DELQ_30PLUS - Monthly";1;93;93;93;93;0;0;0
+"Insikt Loans Prosper:Loan term :30,60 : DELQ_30PLUS - Annual";1;47;47;47;47;0;0;0
+"INPRO13.1: Cumulative Net Charge Off - CUM_LOSS";1;27;27;27;27;0;0;0
+"INPRO13.2: 60+ Day Delinquency - DELQ_60PLUS";1;24;24;24;24;0;0;0
+"Insikt Loans Prosper: Monthly: Loan term :30,60 -DELQ_30PLUS";1;93;93;93;93;0;0;0
