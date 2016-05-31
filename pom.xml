@@ -45,24 +45,6 @@
 				</executions>
 			</plugin>
 
-           <plugin>
-          <groupId>com.lazerycode.jmeter</groupId>
-          <artifactId>jmeter-analysis-Maven-plugin</artifactId>
-          <executions>
-            <execution>
-              <phase>verify</phase>
-              <goals>
-                <goal>analyze</goal>
-              </goals>
-              <configuration>
-                <source>${project.build.directory}/**/*.jtl</source>
-                <targetDirectory>${project.build.directory}/testresults/</targetDirectory>
-              </configuration>
-            </execution>
-           </executions>
-        </plugin>
-
-
           </plugins>
 	</build>
 </project>
