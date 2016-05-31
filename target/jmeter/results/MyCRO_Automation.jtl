@@ -1,662 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="850" lt="850" ts="1464218903706" s="true" lb="front-page" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1255" ng="1" na="1"/>
-<httpSample t="27" lt="27" ts="1464218903740" s="true" lb="mycro configuration" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1797" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="23" lt="23" ts="1464218903769" s="true" lb="invest/index.html" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="981" ng="1" na="1"/>
-<httpSample t="188" lt="187" ts="1464218903958" s="true" lb="invest/cro/cro.html" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="6706" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="27" lt="27" ts="1464218903988" s="true" lb="INPRO13.1: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="984" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904015" s="true" lb="INPRO13.1: Cumulative Net Charge Off - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="718" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904043" s="true" lb="INPRO13.1: Cumulative Net Charge Off - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="687" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904071" s="true" lb="INPRO13.2: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1029" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218904097" s="true" lb="INPRO13.2: Cumulative Net Charge Off - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="719" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904124" s="true" lb="INPRO13.2: Cumulative Net Charge Off - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="684" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904150" s="true" lb="INPRO14.1: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="861" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904177" s="true" lb="INPRO14.1: Cumulative Net Charge Off - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="737" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904204" s="true" lb="INPRO14.1: Cumulative Net Charge Off - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="681" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904231" s="true" lb="INPRO14.2: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="879" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904258" s="true" lb="INPRO14.2: Cumulative Net Charge Off - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="747" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904285" s="true" lb="INPRO14.2: Cumulative Net Charge Off - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="695" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904312" s="true" lb="INPRO15.1: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="820" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904338" s="true" lb="INPRO15.1: Cumulative Net Charge Off - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="742" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904365" s="true" lb="INPRO15.1: Cumulative Net Charge Off - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="695" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904391" s="true" lb="INLCM15.2: Cumulative Net Charge Off  - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="742" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904418" s="true" lb="INLCM15.2: Cumulative Net Charge Off  - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="809" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904444" s="true" lb="INLCM15.2: Cumulative Net Charge Off  - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="695" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904471" s="true" lb="INLCP15.3: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="746" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904498" s="true" lb="INLCP15.3: Cumulative Net Charge Off - CUM_LOSS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1058" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="27" lt="27" ts="1464218904526" s="true" lb="INLCP15.3: Cumulative Net Charge Off - CUM_LOSS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="695" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904552" s="true" lb="INPRO13.1: 30+ Day Delinquency - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1100" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904578" s="true" lb="INPRO13.1: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="764" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218904604" s="true" lb="INPRO13.1: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904630" s="true" lb="INPRO13.2: 30+ Day Delinquency - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1064" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904657" s="true" lb="INPRO13.2: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="762" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904683" s="true" lb="INPRO13.2: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904710" s="true" lb="INPRO14.1: 30+ Day Delinquency - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="956" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218904735" s="true" lb="INPRO14.1: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="734" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218904761" s="true" lb="INPRO14.1: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904788" s="true" lb="INPRO14.2: 30+ Day Delinquency - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="903" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904814" s="true" lb="INPRO14.2: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="746" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904840" s="true" lb="INPRO14.2: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904866" s="true" lb="INPRO15.1: 30+ Day Delinquency - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="845" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904892" s="true" lb="INPRO15.1: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="714" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218904918" s="true" lb="INPRO15.1: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218904945" s="true" lb="INLCM15.2: 30+ Day Delinquency - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="773" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218904971" s="true" lb="INLCM15.2: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="817" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218904997" s="true" lb="INLCM15.2: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218905024" s="true" lb="INLCM15.3: 30+ Day Delinquency -  DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="749" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218905051" s="true" lb="INLCM15.3: 30+ Day Delinquency - DELQ_30PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1055" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="24" lt="24" ts="1464218905076" s="true" lb="INLCM15.3: 30+ Day Delinquency - DELQ_30PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905102" s="true" lb="INPRO13.1: 60+ Day Delinquency - DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1055" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905128" s="true" lb="INPRO13.1: 60+ Day Delinquency - DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="759" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905154" s="true" lb="INPRO13.1: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="694" ng="1" na="1"/>
-<httpSample t="24" lt="24" ts="1464218905179" s="true" lb="INPRO13.2: 60+ Day Delinquency - DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1062" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905205" s="true" lb="INPRO13.2: 60+ Day Delinquency - DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="758" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905231" s="true" lb="INPRO13.2: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="693" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905258" s="true" lb="INPRO14.1: 60+ Day Delinquency - DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="910" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905284" s="true" lb="INPRO14.1: 60+ Day Delinquency - DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="736" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905310" s="true" lb="INPRO14.1: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="691" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218905337" s="true" lb="INPRO14.2: 60+ Day Delinquency - DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="894" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905363" s="true" lb="INPRO14.2: 60+ Day Delinquency - DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="738" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="26" lt="26" ts="1464218905390" s="true" lb="INPRO14.2: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="689" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905416" s="true" lb="INPRO15.1: 60+ Day Delinquency - DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="836" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905442" s="true" lb="INPRO15.1: 60+ Day Delinquency - DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="733" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905468" s="true" lb="INPRO15.1: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="688" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905494" s="true" lb="INLCM15.2: 60+ Day Delinquency - DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="767" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905520" s="true" lb="INLCM15.2: 60+ Day Delinquency - DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="807" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905546" s="true" lb="INLCM15.2: 60+ Day Delinquency - DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="701" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905572" s="true" lb="INLCM15.3: 60+ Day Delinquency -  DELQ_60PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="740" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905599" s="true" lb="INLCM15.3: 60+ Day Delinquency -  DELQ_60PLUS_FORECAST" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1059" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="25" lt="25" ts="1464218905625" s="true" lb="INLCM15.3: 60+ Day Delinquency -  DELQ_60PLUS_COVERAGE" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="701" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="727" lt="727" ts="1464218906354" s="true" lb="Insikt Loans Prosper: 30+ Day Delinquency: Loan term :30,60 - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="4879" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="48" lt="47" ts="1464218906404" s="true" lb="Insikt Loans Prosper: Quarterly: Loan term :30,60 -CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="4879" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="46" lt="46" ts="1464218906452" s="true" lb="Insikt Loans Prosper: Annual: Loan term :30,60 -DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2409" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="93" lt="51" ts="1464218906546" s="true" lb="Insikt Loans Prosper: Monthly: Loan term :30,60 -DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="14200" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="86" lt="85" ts="1464218906635" s="true" lb="Insikt Loans LendingClub: Quarterly: Loan term :30,60 -CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="4270" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="46" lt="46" ts="1464218906682" s="true" lb="Insikt Loans LendingClub: Annual: Loan term :30,60 - DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2071" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="92" lt="50" ts="1464218906775" s="true" lb="Insikt Loans LendingClub: Monthly: Loan term :30,60- DELQ_30PLUS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="12230" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="48" lt="48" ts="1464218906824" s="true" lb="Insikt Loans LendingClub: 30+ Day Delinquency: Loan term :30,60" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="4270" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="48" lt="48" ts="1464218906873" s="true" lb="Insikt Loans Prosper: Quarterly: Loan term : 36" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="4876" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="44" lt="44" ts="1464218906918" s="true" lb="Insikt Loans Prosper: Quarterly: Loan term : 60" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="240" lt="239" ts="1464218907159" s="true" lb="Insikt Loans Prosper:Loan term :30,60 : DELQ_30PLUS - Monthly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="14200" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="176" lt="175" ts="1464218907336" s="true" lb="Insikt Loans Prosper:Loan term :36 : DELQ_30PLUS - Monthly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="14200" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="45" lt="44" ts="1464218907382" s="true" lb="Insikt Loans Prosper:Loan term :60 : DELQ_30PLUS - Monthly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="134" lt="134" ts="1464218907517" s="true" lb="Insikt Loans LendingClub : Loan term :30,60 : DELQ_30PLUS - Monthly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="12230" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="95" lt="94" ts="1464218907613" s="true" lb="Insikt Loans LendingClub : Loan term :36 : DELQ_30PLUS - Monthly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="11544" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="93" lt="93" ts="1464218907707" s="true" lb="Insikt Loans LendingClub : Loan term :60 : DELQ_30PLUS - Monthly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="12402" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="50" lt="49" ts="1464218907758" s="true" lb="Insikt Loans Prosper:Loan term :30,60 : DELQ_30PLUS - Quarterly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="6285" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="55" lt="55" ts="1464218907814" s="true" lb="Insikt Loans Prosper:Loan term :36 : DELQ_30PLUS - Quarterly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="6283" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="46" lt="46" ts="1464218907861" s="true" lb="Insikt Loans Prosper:Loan term :60 : DELQ_30PLUS - Quarterly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="49" lt="49" ts="1464218907911" s="true" lb="Insikt Loans LendingClub : Loan term :30,60 : DELQ_30PLUS - Quarterly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="5017" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="49" lt="49" ts="1464218907961" s="true" lb="Insikt Loans LendingClub : Loan term :36 : DELQ_30PLUS - Quarterly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="4894" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="48" lt="48" ts="1464218908010" s="true" lb="Insikt Loans LendingClub : Loan term :60 : DELQ_30PLUS - Quarterly" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="5185" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="47" lt="47" ts="1464218908058" s="true" lb="Insikt Loans Prosper:Loan term :30,60 : DELQ_30PLUS - Annual" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2409" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="47" lt="47" ts="1464218908106" s="true" lb="Insikt Loans Prosper:Loan term :36 : DELQ_30PLUS - Annual" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2407" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="45" lt="45" ts="1464218908151" s="true" lb="Insikt Loans Prosper:Loan term :60 : DELQ_30PLUS - Annual" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="46" lt="46" ts="1464218908198" s="true" lb="Insikt Loans LendingClub : Loan term :30,60 : DELQ_30PLUS - Annual" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2071" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="46" lt="46" ts="1464218908245" s="true" lb="Insikt Loans LendingClub : Loan term :36 : DELQ_30PLUS - Annual" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2069" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="46" lt="46" ts="1464218908292" s="true" lb="Insikt Loans LendingClub : Loan term :60 : DELQ_30PLUS - Annual" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="2113" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="45" lt="45" ts="1464218908338" s="true" lb="Insikt Loans Prosper: DELQ_30PLUS : Monthly +60 +Prosper" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="316" ng="1" na="1"/>
-<httpSample t="135" lt="135" ts="1464218908473" s="true" lb="Insikt Loans Prosper: DELQ_30PLUS : Monthly +36,60 +Prosper" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="14200" ng="1" na="1">
-  <assertionResult>
-    <name>Response Assertion</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="133" lt="133" ts="1464218908609" s="true" lb="Insikt Loans LendingClub : DELQ_30PLUS : Monthly +60 +Prosper" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="12402" ng="1" na="1"/>
-<httpSample t="92" lt="92" ts="1464218908702" s="true" lb="Insikt Loans LendingClub : DELQ_30PLUS : Monthly +36,60 +Prosper" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="12230" ng="1" na="1"/>
-<sample t="0" lt="0" ts="1464218908721" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="660" ng="1" na="1"/>
+<httpSample t="489" lt="489" ts="1464735554783" s="true" lb="front-page" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1255">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private no-cache must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html
+Date: Tue, 31 May 2016 22:59:14 GMT
+Last-Modified: Fri, 29 Apr 2016 03:16:10 GMT
+Pragma: no-cache
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 882
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0
+Referer: https://insikt.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+</requestHeader>
+  <responseData class="java.lang.String">&lt;div id=&quot;content&quot;&gt;
+	&lt;main class=&quot;site__content&quot; role=&quot;main&quot;&gt;
+		&lt;article id=&quot;post-4&quot; class=&quot;post-4 page type-page status-publish hentry&quot;&gt;
+			&lt;section class=&quot;front-page__intro&quot;&gt;
+				&lt;h1 class=&quot;front-page__intro__heading&quot;&gt;Powering Tomorrow&apos;s Lenders&lt;/h1&gt;
+				&lt;div class=&quot;container-fluid&quot;&gt;
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;front-page__intro__lend col-xs-12 col-sm-6&quot;&gt;
+							&lt;a href=&quot;/#/lend&quot; rel=&quot;bookmark&quot;&gt; &lt;h2&gt;&lt;strong&gt;Lend&lt;/strong&gt; to your customers&lt;/h2&gt; &lt;p&gt;Offer affordable loans. Your brand.&lt;br&gt; Why build it if you donâ&#x80;&#x99;t have to?&lt;/p&gt; &lt;span class=&quot;btn btn-primary&quot;&gt;Learn More&lt;/span&gt; &lt;/a&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;front-page__intro__invest col-xs-12 col-sm-6&quot;&gt;
+							&lt;a href=&quot;/#/invest&quot; rel=&quot;bookmark&quot;&gt; &lt;h2&gt;&lt;strong&gt;Invest&lt;/strong&gt; in consumer loans&lt;/h2&gt; &lt;p&gt;Diversify into a new asset class. &lt;br&gt; Attractive returns. Short duration. No PhD required.&lt;/p&gt; &lt;span class=&quot;btn btn-primary&quot;&gt;Learn More&lt;/span&gt; &lt;/a&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;!-- .row --&gt;
+				&lt;/div&gt;
+				&lt;!-- .container-fluid --&gt;
+				&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+				&lt;div class=&quot;press col-xs-12 hidden-xs&quot;&gt;
+					&lt;div class=&quot;control left&quot;&gt;
+						&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;control right&quot;&gt;
+						&lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;content&quot;&gt;
+						&lt;div class=&quot;highlight&quot;&gt;&lt;/div&gt;
+						&lt;ul&gt;
+							&lt;li ng-repeat=&quot;item in model track by $index&quot; data-key=&quot;$index&quot;&gt;
+								&lt;a href=&quot;{{item.url}}&quot; target=&quot;_blank&quot;&gt;
+									&lt;img ng-src=&quot;{{item.logoSrc}}&quot; /&gt;
+								&lt;/a&gt;
+								&lt;div&gt;
+									{{item.title}}
+								&lt;/div&gt;
+							&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+				&lt;!-- Mobile --&gt;
+				&lt;div class=&quot;press-mobile visible-xs&quot;&gt;
+					&lt;h1&gt;Insikt in the News&lt;/h1&gt;
+					&lt;div ng-repeat=&quot;item in mobileModel track by $index&quot; class=&quot;line-item&quot;&gt;
+						&lt;a href=&quot;{{item.url}}&quot; target=&quot;_blank&quot;&gt;
+							&lt;img ng-src=&quot;{{item.logoSrc}}&quot; /&gt;
+							&lt;div&gt;
+								{{item.title}}
+								&lt;div class=&quot;ra&quot;&gt;
+									Read Article
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/section&gt;
+			&lt;!-- .front-page__intro --&gt;
+		&lt;/article&gt;
+		&lt;!-- #post-4 --&gt;
+	&lt;/main&gt;
+	&lt;!-- .site__content --&gt;
+	&lt;a style=&quot;display:none;&quot; href=&quot;/error/&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://insikt.com/views/front-page/index.html</java.net.URL>
+</httpSample>
+<httpSample t="31" lt="31" ts="1464735554825" s="true" lb="mycro configuration" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="1797">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Type: application/json;charset=utf-8
+Date: Tue, 31 May 2016 22:59:14 GMT
+Expires: Tue, 31 May 2016 22:59:13 GMT
+Pragma: no-cache
+Server: nginx
+Content-Length: 1527
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:45.0) Gecko/20100101 Firefox/45.0
+Referer: https://insikt.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;configuration&quot;:{&quot;reportTypes&quot;:{&quot;cumLoss&quot;:{&quot;linkTo&quot;:&quot;invest.cro.vintage&quot;,&quot;chartType&quot;:&quot;cumLoss&quot;,&quot;name&quot;:&quot;Cumulative Net Charge Off&quot;,&quot;title&quot;:&quot;Cumulative Net Charge Off&quot;,&quot;filter&quot;:&quot;CUM_LOSS&quot;,&quot;reportType&quot;:&quot;vintage&quot;,&quot;groupType&quot;:&quot;staticPool&quot;,&quot;hasCovenant&quot;:true,&quot;hasForecast&quot;:true,&quot;description&quot;:&quot;Losses as % of original principal&quot;,&quot;yAxisTitle&quot;:&quot;Net charge off rate as % of original principal&quot;,&quot;xAxisTitle&quot;:&quot;Months since origination&quot;,&quot;showForTrustSeries&quot;:true},&quot;cumRoi&quot;:{&quot;linkTo&quot;:&quot;invest.cro.vintage&quot;,&quot;chartType&quot;:&quot;cumRoi&quot;,&quot;name&quot;:&quot;Cumulative ROI&quot;,&quot;title&quot;:&quot;Cumulative ROI&quot;,&quot;filter&quot;:&quot;CUM_RETURN&quot;,&quot;reportType&quot;:&quot;vintage&quot;,&quot;groupType&quot;:&quot;staticPool&quot;,&quot;hasCovenant&quot;:false,&quot;hasForecast&quot;:false,&quot;description&quot;:&quot;Cumulative ROI&quot;,&quot;yAxisTitle&quot;:&quot;Cumulative ROI&quot;,&quot;xAxisTitle&quot;:&quot;Months since origination&quot;,&quot;showForTrustSeries&quot;:false,&quot;chartOptionExtensions&quot;:{&quot;yAxis&quot;:{&quot;plotBands&quot;:{&quot;color&quot;:&quot;#f6f6f6&quot;,&quot;from&quot;:&quot;-100&quot;,&quot;to&quot;:&quot;0&quot;}}}},&quot;cumCashOnCash&quot;:{&quot;linkTo&quot;:&quot;invest.cro.vintage&quot;,&quot;chartType&quot;:&quot;cumCashOnCash&quot;,&quot;name&quot;:&quot;Cumulative Cash on Cash&quot;,&quot;title&quot;:&quot;Cumulative Cash on Cash&quot;,&quot;filter&quot;:&quot;CUM_PMT_RECVD&quot;,&quot;reportType&quot;:&quot;vintage&quot;,&quot;groupType&quot;:&quot;staticPool&quot;,&quot;hasCovenant&quot;:false,&quot;hasForecast&quot;:false,&quot;description&quot;:&quot;Cumulative Cash on Cash&quot;,&quot;yAxisTitle&quot;:&quot;Cumulative cash on cash as % of original principal&quot;,&quot;xAxisTitle&quot;:&quot;Months since origination&quot;,&quot;showForTrustSeries&quot;:false,&quot;chartOptionExtensions&quot;:{&quot;yAxis&quot;:{&quot;plotBands&quot;:{&quot;color&quot;:&quot;#f6f6f6&quot;,&quot;from&quot;:&quot;0&quot;,&quot;to&quot;:&quot;100&quot;},&quot;plotLines&quot;:[{&quot;value&quot;:0,&quot;width&quot;:1,&quot;color&quot;:&quot;#4d4d4d&quot;},{&quot;value&quot;:100,&quot;width&quot;:1.15,&quot;color&quot;:&quot;#4d4d4d&quot;}],&quot;minRange&quot;:100}}},&quot;firstPaymentDefault&quot;:{&quot;linkTo&quot;:&quot;invest.cro.timeSeries&quot;,&quot;chartType&quot;:&quot;firstPaymentDefault&quot;,&quot;name&quot;:&quot;First Payment Delinquency&quot;,&quot;title&quot;:&quot;First Payment Delinquency&quot;,&quot;filter&quot;:&quot;FPD7_AMT,FPD15_AMT,FPD_AMT&quot;,&quot;reportType&quot;:&quot;timeSeries&quot;,&quot;groupType&quot;:&quot;staticPool&quot;,&quot;xAxisTitle&quot;:&quot;Vintage month&quot;,&quot;yAxisTitle&quot;:&quot;First payment delinquencies as % of original principal&quot;,&quot;showForTrustSeries&quot;:true},&quot;delinquency30d&quot;:{&quot;linkTo&quot;:&quot;invest.cro.vintage&quot;,&quot;chartType&quot;:&quot;delinquency30d&quot;,&quot;name&quot;:&quot;30+ Day Delinquency&quot;,&quot;title&quot;:&quot;30+ Day Delinquency&quot;,&quot;filter&quot;:&quot;DELQ_30PLUS&quot;,&quot;reportType&quot;:&quot;vintage&quot;,&quot;groupType&quot;:&quot;staticPool&quot;,&quot;xAxisTitle&quot;:&quot;Months since origination&quot;,&quot;yAxisTitle&quot;:&quot;30+ day delinquency rate as % of outstanding balance&quot;,&quot;hasForecast&quot;:true,&quot;showForTrustSeries&quot;:true},&quot;delinquency60d&quot;:{&quot;linkTo&quot;:&quot;invest.cro.vintage&quot;,&quot;chartType&quot;:&quot;delinquency60d&quot;,&quot;name&quot;:&quot;60+ Day Delinquency&quot;,&quot;title&quot;:&quot;60+ Day Delinquency&quot;,&quot;filter&quot;:&quot;DELQ_60PLUS&quot;,&quot;reportType&quot;:&quot;vintage&quot;,&quot;groupType&quot;:&quot;staticPool&quot;,&quot;xAxisTitle&quot;:&quot;Months since origination&quot;,&quot;yAxisTitle&quot;:&quot;60+ day delinquency rate as % of outstanding balance&quot;,&quot;hasCovenant&quot;:true,&quot;hasForecast&quot;:true,&quot;showForTrustSeries&quot;:true},&quot;cumLossTS&quot;:{&quot;linkTo&quot;:&quot;invest.cro.timeSeries&quot;,&quot;chartType&quot;:&quot;cumLossTS&quot;,&quot;name&quot;:&quot;Net Charge Off&quot;,&quot;title&quot;:&quot;Net Charge Off Rate&quot;,&quot;filter&quot;:&quot;NET_LOSS_TS&quot;,&quot;reportType&quot;:&quot;timeSeries&quot;,&quot;groupType&quot;:&quot;historicalPortfolioSnapshot&quot;,&quot;description&quot;:&quot;Net Charge Off Rate as % of Outstanding Balance&quot;,&quot;yAxisTitle&quot;:&quot;Net charge off rate as % of outstanding balance&quot;,&quot;xAxisTitle&quot;:&quot;Calendar Month&quot;,&quot;showForTrustSeries&quot;:true},&quot;delinquency30dTS&quot;:{&quot;linkTo&quot;:&quot;invest.cro.timeSeries&quot;,&quot;chartType&quot;:&quot;delinquency30dTS&quot;,&quot;name&quot;:&quot;30+ Day Delinquency&quot;,&quot;title&quot;:&quot;30+ Day Delinquency&quot;,&quot;filter&quot;:&quot;DELQ_30PLUS_TS&quot;,&quot;reportType&quot;:&quot;timeSeries&quot;,&quot;groupType&quot;:&quot;historicalPortfolioSnapshot&quot;,&quot;xAxisTitle&quot;:&quot;Calendar Month&quot;,&quot;yAxisTitle&quot;:&quot;30+ day delinquency rate as % of outstanding balance&quot;,&quot;showForTrustSeries&quot;:true},&quot;delinquency60dTS&quot;:{&quot;linkTo&quot;:&quot;invest.cro.timeSeries&quot;,&quot;chartType&quot;:&quot;delinquency60dTS&quot;,&quot;name&quot;:&quot;60+ Day Delinquency&quot;,&quot;title&quot;:&quot;60+ Day Delinquency&quot;,&quot;filter&quot;:&quot;DELQ_60PLUS_TS&quot;,&quot;reportType&quot;:&quot;timeSeries&quot;,&quot;groupType&quot;:&quot;historicalPortfolioSnapshot&quot;,&quot;xAxisTitle&quot;:&quot;Calendar Month&quot;,&quot;yAxisTitle&quot;:&quot;60+ day delinquency rate as % of outstanding balance&quot;,&quot;showForTrustSeries&quot;:true}},&quot;trustSeries&quot;:{&quot;s10001&quot;:{&quot;id&quot;:10001,&quot;name&quot;:&quot;INPRO13.1&quot;,&quot;originator&quot;:&quot;Prosper&quot;,&quot;closingDate&quot;:&quot;October 4, 2013&quot;,&quot;documentsRoute&quot;:&quot;documents.prosper2013Series1&quot;},&quot;s10002&quot;:{&quot;id&quot;:10002,&quot;name&quot;:&quot;INPRO13.2&quot;,&quot;originator&quot;:&quot;Prosper&quot;,&quot;cutoffDate&quot;:&quot;December 12, 2013&quot;,&quot;closingDate&quot;:&quot;December 17, 2013&quot;,&quot;documentsRoute&quot;:&quot;documents.prosper2013Series2&quot;},&quot;s10003&quot;:{&quot;id&quot;:10003,&quot;name&quot;:&quot;INPRO14.1&quot;,&quot;originator&quot;:&quot;Prosper&quot;,&quot;cutoffDate&quot;:&quot;May 20, 2014&quot;,&quot;closingDate&quot;:&quot;May 23, 2014&quot;,&quot;documentsRoute&quot;:&quot;documents.prosper2014Series1&quot;},&quot;s10004&quot;:{&quot;id&quot;:10004,&quot;name&quot;:&quot;INPRO14.2&quot;,&quot;originator&quot;:&quot;Prosper&quot;,&quot;cutoffDate&quot;:&quot;December 17, 2014&quot;,&quot;closingDate&quot;:&quot;December 22, 2014&quot;,&quot;documentsRoute&quot;:&quot;documents.prosper2014Series2&quot;},&quot;s10005&quot;:{&quot;id&quot;:10005,&quot;name&quot;:&quot;INPRO15.1&quot;,&quot;originator&quot;:&quot;Prosper&quot;,&quot;cutoffDate&quot;:&quot;March 27, 2015&quot;,&quot;closingDate&quot;:&quot;March 31, 2015&quot;,&quot;documentsRoute&quot;:&quot;documents.prosper2015Series1&quot;},&quot;s10006&quot;:{&quot;id&quot;:10006,&quot;name&quot;:&quot;INLCM15.2&quot;,&quot;originator&quot;:&quot;LendingClub&quot;,&quot;cutoffDate&quot;:&quot;July 5, 2015&quot;,&quot;closingDate&quot;:&quot;July 10, 2015&quot;,&quot;documentsRoute&quot;:&quot;documents.lendingClub2015Series2&quot;},&quot;s10007&quot;:{&quot;id&quot;:10007,&quot;name&quot;:&quot;INLCP15.3&quot;,&quot;originator&quot;:&quot;LendingClub&quot;,&quot;cutoffDate&quot;:&quot;November 2, 2015&quot;,&quot;closingDate&quot;:&quot;November 4, 2015&quot;,&quot;documentsRoute&quot;:&quot;documents.lendingClub2015Series3&quot;}},&quot;portfolioTypes&quot;:[{&quot;name&quot;:&quot;Partner Loans&quot;,&quot;value&quot;:&quot;Partner&quot;},{&quot;name&quot;:&quot;Insikt Loans&quot;,&quot;value&quot;:&quot;Model&quot;},{&quot;name&quot;:&quot;Insikt Securitizations&quot;,&quot;value&quot;:&quot;Trust&quot;}],&quot;filterTypes&quot;:{&quot;none&quot;:{&quot;label&quot;:&quot;None&quot;,&quot;val&quot;:&quot;none&quot;},&quot;creditRating&quot;:{&quot;label&quot;:&quot;Credit Rating&quot;,&quot;val&quot;:&quot;creditRating&quot;,&quot;types&quot;:[]},&quot;loanTerm&quot;:{&quot;label&quot;:&quot;Term&quot;,&quot;val&quot;:&quot;loanTerm&quot;,&quot;types&quot;:[{&quot;label&quot;:&quot;All Terms&quot;,&quot;value&quot;:&quot;36,60&quot;},{&quot;label&quot;:&quot;36 months&quot;,&quot;value&quot;:&quot;36&quot;},{&quot;label&quot;:&quot;60 months&quot;,&quot;value&quot;:&quot;60&quot;}]},&quot;ficoScore&quot;:{&quot;label&quot;:&quot;FICO Band&quot;,&quot;val&quot;:&quot;ficoScore&quot;,&quot;types&quot;:[{&quot;label&quot;:&quot;Unspecified&quot;,&quot;value&quot;:&quot;0&quot;},{&quot;label&quot;:&quot;&lt;660&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;label&quot;:&quot;660-719&quot;,&quot;value&quot;:&quot;2&quot;},{&quot;label&quot;:&quot;720+&quot;,&quot;value&quot;:&quot;3&quot;}]},&quot;loanAmount&quot;:{&quot;label&quot;:&quot;Loan Amount&quot;,&quot;val&quot;:&quot;loanAmount&quot;,&quot;types&quot;:[{&quot;label&quot;:&quot;&lt;=10,000&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;label&quot;:&quot;10,001-20,000&quot;,&quot;value&quot;:&quot;2&quot;},{&quot;label&quot;:&quot;&gt;20,000&quot;,&quot;value&quot;:&quot;3&quot;}]}},&quot;originators&quot;:{&quot;Prosper&quot;:{&quot;name&quot;:&quot;Prosper&quot;,&quot;value&quot;:&quot;Prosper&quot;,&quot;compareEnabled&quot;:true,&quot;creditRatingTypes&quot;:[{&quot;label&quot;:&quot;AA&quot;,&quot;value&quot;:&quot;AA&quot;},{&quot;label&quot;:&quot;A&quot;,&quot;value&quot;:&quot;A&quot;},{&quot;label&quot;:&quot;B&quot;,&quot;value&quot;:&quot;B&quot;},{&quot;label&quot;:&quot;C&quot;,&quot;value&quot;:&quot;C&quot;},{&quot;label&quot;:&quot;D&quot;,&quot;value&quot;:&quot;D&quot;},{&quot;label&quot;:&quot;E&quot;,&quot;value&quot;:&quot;E&quot;},{&quot;label&quot;:&quot;HR&quot;,&quot;value&quot;:&quot;HR&quot;}],&quot;portfolio&quot;:{&quot;Model&quot;:{&quot;reports&quot;:{&quot;vintageReports&quot;:[&quot;delinquency30d&quot;,&quot;delinquency60d&quot;,&quot;cumLoss&quot;,&quot;cumRoi&quot;,&quot;cumCashOnCash&quot;],&quot;historicalReports&quot;:[],&quot;defaultReport&quot;:&quot;cumLoss&quot;}},&quot;Partner&quot;:{&quot;reports&quot;:{&quot;vintageReports&quot;:[&quot;delinquency30d&quot;,&quot;delinquency60d&quot;,&quot;cumLoss&quot;,&quot;cumRoi&quot;,&quot;cumCashOnCash&quot;],&quot;historicalReports&quot;:[&quot;delinquency30dTS&quot;,&quot;delinquency60dTS&quot;,&quot;cumLossTS&quot;],&quot;defaultReport&quot;:&quot;cumLoss&quot;}}}},&quot;LendingClub&quot;:{&quot;name&quot;:&quot;Lending Club&quot;,&quot;value&quot;:&quot;LendingClub&quot;,&quot;compareEnabled&quot;:true,&quot;creditRatingTypes&quot;:[{&quot;label&quot;:&quot;A&quot;,&quot;value&quot;:&quot;A&quot;},{&quot;label&quot;:&quot;B&quot;,&quot;value&quot;:&quot;B&quot;},{&quot;label&quot;:&quot;C&quot;,&quot;value&quot;:&quot;C&quot;},{&quot;label&quot;:&quot;D&quot;,&quot;value&quot;:&quot;D&quot;},{&quot;label&quot;:&quot;E&quot;,&quot;value&quot;:&quot;E&quot;},{&quot;label&quot;:&quot;F&quot;,&quot;value&quot;:&quot;F&quot;},{&quot;label&quot;:&quot;G&quot;,&quot;value&quot;:&quot;G&quot;}],&quot;portfolio&quot;:{&quot;Model&quot;:{&quot;reports&quot;:{&quot;vintageReports&quot;:[&quot;delinquency30d&quot;,&quot;delinquency60d&quot;,&quot;cumLoss&quot;,&quot;cumRoi&quot;,&quot;cumCashOnCash&quot;],&quot;historicalReports&quot;:[],&quot;defaultReport&quot;:&quot;cumLoss&quot;}},&quot;Partner&quot;:{&quot;reports&quot;:{&quot;vintageReports&quot;:[&quot;delinquency30d&quot;,&quot;delinquency60d&quot;,&quot;cumLoss&quot;,&quot;cumRoi&quot;,&quot;cumCashOnCash&quot;],&quot;historicalReports&quot;:[&quot;delinquency30dTS&quot;,&quot;delinquency60dTS&quot;,&quot;cumLossTS&quot;],&quot;defaultReport&quot;:&quot;cumLoss&quot;}}}}}}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://insikt.com/api/v1/mycro/configuration</java.net.URL>
+</httpSample>
+<httpSample t="29" lt="29" ts="1464735554869" s="true" lb="INPRO13.1: Cumulative Net Charge Off - CUM_LOSS" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="984">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Type: application/json;charset=utf-8
+Date: Tue, 31 May 2016 22:59:14 GMT
+Expires: Tue, 31 May 2016 22:59:13 GMT
+Pragma: no-cache
+Server: nginx
+Content-Length: 715
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0
+Referer: https://insikt.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:{&quot;series&quot;:[{&quot;id&quot;:null,&quot;fullName&quot;:null,&quot;reportName&quot;:&quot;Cumulative Net Charge Off-Trust&quot;,&quot;name&quot;:&quot;Cumulative Net Charge Off-Trust&quot;,&quot;reportType&quot;:&quot;CUM_LOSS&quot;,&quot;frequency&quot;:null,&quot;description&quot;:null,&quot;mediaType&quot;:null,&quot;data&quot;:[[1,0E-26],[2,0E-26],[3,0E-26],[4,0E-26],[5,0.3177619835384294160000],[6,0.7423104237408163450000],[7,0.7423104237408163450000],[8,0.7423104237408163450000],[9,1.2558938651587699660000],[10,1.4272152385835141850000],[11,1.4272152385835141850000],[12,1.6318495073144931910000],[13,1.6318495073144931910000],[14,1.9632587325219310740000],[15,3.2453406337920371620000],[16,3.2453406337920371620000],[17,3.2453406337920371620000],[18,3.2453406337920371620000],[19,3.6311526171531553910000],[20,3.7179645555318872310000],[21,4.1099792528116756020000],[22,4.0990228196192705560000],[23,4.8769079684651482280000],[24,4.8112405479950305580000],[25,4.8731170680015347650000],[26,4.8712607024937032600000],[27,5.4175717216442138800000],[28,5.3586281447457693770000],[29,5.3578369174067586880000],[30,5.3408112303287696400000],[31,5.6572602213512182660000]],&quot;reportDate&quot;:null,&quot;vintageMonth&quot;:null,&quot;sampleSize&quot;:&quot;267&quot;,&quot;subGroupValue&quot;:&quot;&quot;,&quot;reportDayOfMonth&quot;:null,&quot;reportMonth&quot;:null,&quot;reportYear&quot;:null,&quot;reportQuarter&quot;:null,&quot;reportTimeZone&quot;:null,&quot;performanceDataAsOf&quot;:[2016,4,1],&quot;lastAvailableVintage&quot;:null,&quot;parameters&quot;:{},&quot;attributes&quot;:{&quot;originator&quot;:&quot;Prosper&quot;,&quot;ownership&quot;:&quot;Trust&quot;,&quot;trustSeriesId&quot;:&quot;10001&quot;},&quot;highchart&quot;:{},&quot;createdDate&quot;:null,&quot;createdUserId&quot;:null,&quot;modifiedDate&quot;:null,&quot;modifiedUserId&quot;:null}]}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://insikt.com/api/v1/mycro/securities/10001/reports/CUM_LOSS?originator=Prosper&amp;ownership=Trust</java.net.URL>
+</httpSample>
+<sample t="1" lt="0" ts="1464735554882" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="MyCRO 1-1" dt="text" by="659">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+CsvFilePath=/Users/schigurupati/Desktop/Jmeter_Tests/QA/Jmeter_Tests/DataFiles/Criteria_Settings.csv
+DATE=2016-06-29
+Date=2016-05-31
+Future Date=2016-06-33 
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@1d2de7e8
+MyCROServer=ops.insikt.com
+MyCROServerUrl=insikt.com
+Past Date=2016-06-29 
+START.HMS=155913
+START.MS=1464735553464
+START.YMD=20160531
+TESTSTART.MS=1464735553742
+Time=1464735554278
+Time3=000014
+Time4=15:59:14
+Todays Date=2016-05-31 
+User=289805
+User2=8794
+Username=schigurupati@insikt.com
+baseIdpPartnerUrl=
+baseUrl=lendifyfin.com
+mycrotestuser1@insikt.com=test1234
+password=Anusha19!
+
+</responseData>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
 
 </testResults>
