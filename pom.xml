@@ -8,15 +8,33 @@
 	<name>jmeter-jenkins</name>
 	<url>http://maven.apache.org</url>
 
+        <dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>com.lazerycode.jmeter</groupId>
 				<artifactId>jmeter-maven-plugin</artifactId>
-				<version>1.4.1</version>
+				<version>1.9.1</version>
 				<configuration>
 					<testResultsTimestamp>false</testResultsTimestamp>
-				</configuration>
+                                      <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
+                                      <suppressJMeterOutput>false</suppressJMeterOutput>
+                                      <ignoreResultFailures>true</ignoreResultFailures>
+                                  <propertiesJMeter>
+                                    <jmeter.save.saveservice.response_data>true</jmeter.save.saveservice.response_data>
+                                    <jmeter.save.saveservice.samplerData>true</jmeter.save.saveservice.samplerData>
+                                    <jmeter.save.saveservice.requestHeaders>true</jmeter.save.saveservice.requestHeaders>
+                                    <jmeter.save.saveservice.url>true</jmeter.save.saveservice.url>
+                                    <jmeter.save.saveservice.responseHeaders>true</jmeter.save.saveservice.responseHeaders>
+                                 </propertiesJMeter>
+	 		       </configuration>
 				<executions>
 					<execution>
 						<id>jmeter-tests</id>

@@ -111,32 +111,6 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="Update Once User Parameters" enabled="true">
-          <collectionProp name="UserParameters.names">
-            <stringProp name="82025895">User2</stringProp>
-            <stringProp name="2606829">Time</stringProp>
-            <stringProp name="80811750">Time3</stringProp>
-            <stringProp name="2122702">Date</stringProp>
-            <stringProp name="80811751">Time4</stringProp>
-            <stringProp name="-201069322">Username</stringProp>
-            <stringProp name="1216985755">password</stringProp>
-            <stringProp name="-472377481">mycrotestuser1@insikt.com</stringProp>
-          </collectionProp>
-          <collectionProp name="UserParameters.thread_values">
-            <collectionProp name="1236346360">
-              <stringProp name="-136285544">${__Random(7122,9009)}</stringProp>
-              <stringProp name="217092793">${__time}</stringProp>
-              <stringProp name="1196789496">${__time(ssssss)}</stringProp>
-              <stringProp name="-1983561601">${__BeanShell(new java.text.SimpleDateFormat(&quot;yyyy-MM-dd&quot;).format(new Date()))}</stringProp>
-              <stringProp name="1821498968">${__time(HH:mm:ss)}</stringProp>
-              <stringProp name="1839800079">schigurupati@insikt.com</stringProp>
-              <stringProp name="1065238165">Anusha19!</stringProp>
-              <stringProp name="-1147882540">test1234</stringProp>
-            </collectionProp>
-          </collectionProp>
-          <boolProp name="UserParameters.per_iteration">true</boolProp>
-        </UserParameters>
-        <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
           <stringProp name="filename">/Users/schigurupati/Desktop/Jmeter_Tests/QA/Jmeter_Tests/DataFiles/Project_Status.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
@@ -403,7 +377,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="*******************************Insikt Securitizations ************************************" enabled="true">
+        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="*******************************Insikt Securitizations ************************************" enabled="false">
           <collectionProp name="UserParameters.names"/>
           <collectionProp name="UserParameters.thread_values">
             <collectionProp name="1"/>
@@ -411,7 +385,7 @@
           <boolProp name="UserParameters.per_iteration">true</boolProp>
         </UserParameters>
         <hashTree/>
-        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="****************Cumulative Net Charge Off *********************" enabled="true">
+        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="****************Cumulative Net Charge Off *********************" enabled="false">
           <collectionProp name="UserParameters.names"/>
           <collectionProp name="UserParameters.thread_values">
             <collectionProp name="1"/>
@@ -3479,7 +3453,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="****************60+ Day Delinquency *********************" enabled="true">
+        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="****************60+ Day Delinquency *********************" enabled="false">
           <collectionProp name="UserParameters.names"/>
           <collectionProp name="UserParameters.thread_values">
             <collectionProp name="1"/>
@@ -5003,7 +4977,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="****************Insikt Loans *********************" enabled="true">
+        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="****************Insikt Loans *********************" enabled="false">
           <collectionProp name="UserParameters.names"/>
           <collectionProp name="UserParameters.thread_values">
             <collectionProp name="1"/>
@@ -8170,7 +8144,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------About -------------------" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------About -------------------" enabled="false"/>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="132 /views/about/index.html" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -9000,7 +8974,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="false"/>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="207 /api/v1/mycro/loans/Prosper/reports/CUM_LOSS" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -9071,7 +9045,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="false"/>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="208 /views/invest/market/market.html" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -9565,7 +9539,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="-------------------" enabled="false"/>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="235 /api/v1/mycro/configuration" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
