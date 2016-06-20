@@ -8,20 +8,39 @@
 	<name>jmeter-jenkins</name>
 	<url>http://maven.apache.org</url>
 
-        <dependencies>
+ 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.0</version>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>com.lazerycode.jmeter</groupId>
 				<artifactId>jmeter-maven-plugin</artifactId>
-				<version>1.9.1</version>
+				<version>1.8.1</version>
+				<executions>
+					<execution>
+						<id>jmeter-tests</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>jmeter</goal>
+						</goals>
+					</execution>
+				</executions>
 				<configuration>
 					<testResultsTimestamp>false</testResultsTimestamp>
                                       <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
@@ -35,16 +54,95 @@
                                     <jmeter.save.saveservice.responseHeaders>true</jmeter.save.saveservice.responseHeaders>
                                  </propertiesJMeter>
 	 		       </configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>xml-maven-plugin</artifactId>
+				<version>1.0</version>
 				<executions>
 					<execution>
-						<id>jmeter-tests</id>
 						<phase>verify</phase>
 						<goals>
-							<goal>jmeter</goal>
+							<goal>transform</goal>
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<transformationSets>
+						<transformationSet>
+							<dir>${project.build.directory}/jmeter/results</dir>
+							<stylesheet>${project.basedir}/src/main/jmeter-results-report_21.xsl</stylesheet>
+							<outputDir>${project.build.directory}/jmeter/results</outputDir>
+							<fileMappers>
+								<fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+									<pattern>(.*?)\s(.*?)</pattern>
+									<replacement>$1$2</replacement>
+									<replaceAll>true</replaceAll>
+								</fileMapper>
+								<fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+									<targetExtension>.html</targetExtension>
+								</fileMapper>
+							</fileMappers>
+						</transformationSet>
+					</transformationSets>
+				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<executions>
+					<execution>
+						<id>determine-failures</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>${project.basedir}/src/main/findstrcmd.bat</executable>
+							<arguments>
+								<argument>failed</argument>
+								<argument>${project.build.directory}\jmeter\results\HTTPRequestDefaults.html</argument>
+								<argument>${project.basedir}\sendmail\failures.txt</argument>
+							</arguments>
+							<successCodes>
+								<successCode>1</successCode>
+								<successCode>0</successCode>
+							</successCodes>
+						</configuration>
+					</execution>
+					<execution>
+						<id>remove-empty</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>${project.basedir}/src/main/delifempty.bat</executable>
+							<arguments>
+								<argument>${project.basedir}\sendmail\failures.txt</argument>
+							</arguments>
+						</configuration>
+					</execution>
+					<execution>
+						<id>send-mail</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<workingDirectory>${project.basedir}/sendmail/</workingDirectory>
+							<executable>execmvn.bat</executable>
+							<arguments>
+								<argument>${project.build.directory}\jmeter\results</argument>
+								<argument>HTTPRequestDefaults.html</argument>
+								<argument>My Project</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	</build>
 </project>
