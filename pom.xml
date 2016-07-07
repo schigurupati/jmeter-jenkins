@@ -98,22 +98,19 @@
                 <goal>analyze</goal>
               </goals>
               <configuration>
-                <!--
-                An AntPath-Style pattern matching a JMeter XML result file to analyze. Must be a fully qualified path.
-                File may be GZiped, must end in .gz then.
-
-                Default: not set.
-                Required.
-                -->
                 <source>${project.build.directory}/**/*.jtl</source>
 
-                <!--
-                directory where to store analysis result files.
-
-                Default: ${project.build.directory}
-                Required.
-                -->
                 <targetDirectory>${project.build.directory}/results</targetDirectory>
+                 <generateCSVs>true</generateCSVs>
+                <generateCharts>true</generateCharts>
+<preserveDirectories>false</preserveDirectories>
+<suppressJMeterOutput>true</suppressJMeterOutput>
+<ignoreResultFailures>true</ignoreResultFailures>
+<testResultsTimestamp>true</testResultsTimestamp>
+              <appendResultsTimestamp>true</appendResultsTimestamp>
+              <processAllFilesFound>true</processAllFilesFound>
+</configuration>
+
               </configuration>
             </execution>
           </executions>
