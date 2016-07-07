@@ -16,36 +16,12 @@
 				<version>2.0.3</version>
 				<configuration>
 					<testResultsTimestamp>false</testResultsTimestamp>
-                                      <logConfigFilename>myFile.xml</logConfigFilename>
+
                                       <overrideRootLogLevel>debug</overrideRootLogLevel>
-                               <jmeterExtensions>
-                                      <artifact>kg.apc:jmeter-plugins:pom:1.3.1</artifact>
-                               </jmeterExtensions>
-
-
-                              <dependencies>
-                                     <dependency>
-                                        <groupId>kg.apc</groupId>
-                                        <artifactId>JMeterPlugins</artifactId>
-                                        <version>1.0.0</version>
-                                    </dependency>
-                              </dependencies>
-                                <pluginTypes>
-                             <types>ThreadsStateOverTime</types>
-                             <types>BytesThroughputOverTime</types>
-                            <types>HitsPerSecond</types>
-                            <types>LatenciesOverTime</types>
-                           <types>ResponseCodesPerSecond</types>
-                           <types>ResponseTimesDistribution</types>
-                           <types>ResponseTimesOverTime</types>
-                           <types>ResponseTimesPercentiles</types>
-                           <types>ThroughputVsThreads</types>
-                          <types>TimesVsThreads</types>
-                            <types>TransactionsPerSecond</types>
-                        </pluginTypes>
+                         
                                <propertiesJMeter>
                                         <jmeter.save.saveservice.response_data>false</jmeter.save.saveservice.response_data>
-                                        <jmeter.save.saveservice.samplerData>false</jmeter.save.saveservice.samplerData>
+                                        <jmeter.save.saveservice.samplerData>true</jmeter.save.saveservice.samplerData>
                                         <jmeter.save.saveservice.requestHeaders>true</jmeter.save.saveservice.requestHeaders>
                                         <jmeter.save.saveservice.url>true</jmeter.save.saveservice.url>
                                         <jmeter.save.saveservice.responseHeaders>true</jmeter.save.saveservice.responseHeaders>
@@ -63,12 +39,7 @@
 				</executions>
 			</plugin>
 
-                        <plugin>
-                                <groupId>org.apache.maven.plugins</groupId>
-                                <artifactId>maven-resources-plugin</artifactId>
-                                <version>2.7</version>
-                        </plugin>
-
+                      
         <plugin>
           <groupId>com.lazerycode.jmeter</groupId>
           <artifactId>jmeter-analysis-maven-plugin</artifactId>
@@ -85,10 +56,10 @@
                 <targetDirectory>${project.build.directory}/results</targetDirectory>
                  <generateCSVs>true</generateCSVs>
                 <generateCharts>true</generateCharts>
-<preserveDirectories>false</preserveDirectories>
-<suppressJMeterOutput>true</suppressJMeterOutput>
-<ignoreResultFailures>true</ignoreResultFailures>
-<testResultsTimestamp>true</testResultsTimestamp>
+                <preserveDirectories>false</preserveDirectories>
+                <suppressJMeterOutput>true</suppressJMeterOutput>
+                <ignoreResultFailures>true</ignoreResultFailures>
+               <testResultsTimestamp>true</testResultsTimestamp>
               <appendResultsTimestamp>true</appendResultsTimestamp>
               <processAllFilesFound>true</processAllFilesFound>
 
@@ -114,7 +85,7 @@
      <transformationSets>
       <transformationSet>
        <dir>${project.build.directory}/jmeter/results</dir>
-       <stylesheet>${project.basedir}/src/main/jmeter-results-report_21.xsl</stylesheet>
+       <stylesheet>${project.basedir}/src/test/jmeter-results-report_21.xsl</stylesheet>
        <outputDir>${project.build.directory}/jmeter/results</outputDir>
        <fileMappers>
         <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
