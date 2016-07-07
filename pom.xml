@@ -72,6 +72,7 @@
         <plugin>
           <groupId>com.lazerycode.jmeter</groupId>
           <artifactId>jmeter-analysis-maven-plugin</artifactId>
+          <version>1.0.1</version>
           <executions>
             <execution>
               <phase>verify</phase>
