@@ -109,7 +109,7 @@
 <testResultsTimestamp>true</testResultsTimestamp>
               <appendResultsTimestamp>true</appendResultsTimestamp>
               <processAllFilesFound>true</processAllFilesFound>
-</configuration>
+
 
               </configuration>
             </execution>
