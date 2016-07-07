@@ -63,25 +63,6 @@
 				</executions>
 			</plugin>
 
-<plugin>
-                                <groupId>org.codehaus.mojo</groupId>
-                                <artifactId>xml-maven-plugin</artifactId>
-                                <version>1.0</version>
-                                <configuration>
-                                        <transformationSets>
-                                                <transformationSet>
-                                                        <dir>${project.build.directory}/jmeter/results</dir>
-                                                        <stylesheet>src/test/jmeter/jmeter-results-detail-report_21.xsl</stylesheet>
-                                                        <fileMappers>
-                                                           <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
-                                                                        <targetExtension>.html</targetExtension>
-                                                                </fileMapper>
-                                                        </fileMappers>
-                                                </transformationSet>
-                                        </transformationSets>
-                                </configuration>
-                        </plugin>
-
                         <plugin>
                                 <groupId>org.apache.maven.plugins</groupId>
                                 <artifactId>maven-resources-plugin</artifactId>
@@ -115,6 +96,39 @@
             </execution>
           </executions>
         </plugin>
+
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>xml-maven-plugin</artifactId>
+    <version>1.0</version>
+    <executions>
+     <execution>
+      <phase>verify</phase>
+      <goals>
+       <goal>transform</goal>
+      </goals>
+     </execution>
+    </executions>
+    <configuration>
+     <transformationSets>
+      <transformationSet>
+       <dir>${project.build.directory}/jmeter/results</dir>
+       <stylesheet>${project.basedir}/src/main/jmeter-results-report_21.xsl</stylesheet>
+       <outputDir>${project.build.directory}/jmeter/results</outputDir>
+       <fileMappers>
+        <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+         <pattern>(.*?)\s(.*?)</pattern>
+         <replacement>$1$2</replacement>
+         <replaceAll>true</replaceAll>
+        </fileMapper>
+        <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+         <targetExtension>.html</targetExtension>
+        </fileMapper>
+       </fileMappers>
+      </transformationSet>
+     </transformationSets>
+    </configuration>
+   </plugin>
 
 		</plugins>
 	</build>
