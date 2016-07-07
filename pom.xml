@@ -43,6 +43,14 @@
                           <types>TimesVsThreads</types>
                             <types>TransactionsPerSecond</types>
                         </pluginTypes>
+                               <propertiesJMeter>
+                                        <jmeter.save.saveservice.response_data>false</jmeter.save.saveservice.response_data>
+                                        <jmeter.save.saveservice.samplerData>false</jmeter.save.saveservice.samplerData>
+                                        <jmeter.save.saveservice.requestHeaders>true</jmeter.save.saveservice.requestHeaders>
+                                        <jmeter.save.saveservice.url>true</jmeter.save.saveservice.url>
+                                        <jmeter.save.saveservice.responseHeaders>true</jmeter.save.saveservice.responseHeaders>
+                                        <jmeter.save.saveservice.output_format>true</jmeter.save.saveservice.output_format>                                                                                      
+                                     </propertiesJMeter>
                  </configuration>
 				<executions>
 					<execution>
@@ -54,6 +62,31 @@
 					</execution>
 				</executions>
 			</plugin>
+
+<plugin>
+                                <groupId>org.codehaus.mojo</groupId>
+                                <artifactId>xml-maven-plugin</artifactId>
+                                <version>1.0</version>
+                                <configuration>
+                                        <transformationSets>
+                                                <transformationSet>
+                                                        <dir>${project.build.directory}/jmeter/results</dir>
+                                                        <stylesheet>src/test/jmeter/jmeter-results-detail-report_21.xsl</stylesheet>
+                                                        <fileMappers>
+                                                           <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                                                        <targetExtension>.html</targetExtension>
+                                                                </fileMapper>
+                                                        </fileMappers>
+                                                </transformationSet>
+                                        </transformationSets>
+                                </configuration>
+                        </plugin>
+
+                        <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-resources-plugin</artifactId>
+                                <version>2.7</version>
+                        </plugin>
 		</plugins>
 	</build>
 </project>
