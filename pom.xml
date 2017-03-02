@@ -22,7 +22,7 @@
 				<artifactId>jmeter-maven-plugin</artifactId>
 				<version>1.10.1</version>
 				<configuration>
-					<testResultsTimestamp>true</testResultsTimestamp>
+					<testResultsTimestamp>false</testResultsTimestamp>
                                       <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
                                       <suppressJMeterOutput>false</suppressJMeterOutput>
                                       <ignoreResultFailures>true</ignoreResultFailures>
