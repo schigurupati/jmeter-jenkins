@@ -1,0 +1,7 @@
+{
+  "preferredLoan": {
+    "amount": 1000,
+    "loanTerm": 12,
+    "paymentAmount": 80
+  }
+}

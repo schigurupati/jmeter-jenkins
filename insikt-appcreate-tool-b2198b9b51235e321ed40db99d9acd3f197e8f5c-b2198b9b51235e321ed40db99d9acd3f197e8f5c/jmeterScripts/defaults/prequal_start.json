@@ -1,0 +1,44 @@
+{
+  "applicant": {
+    "timeZone": "America\/Los_Angeles",
+    "externalId": null,
+    "externalIdNA": true,
+    "payday": {
+      "statedUsage": true,
+      "actualUsage": false
+    },
+    "checkCashing": {
+      "statedUsage": false,
+      "actualUsage": false
+    },
+    "person": {
+      "firstName": "FIRSTTEST",
+      "lastName": "LASTTEST",
+      "dateOfBirth": "1980-01-01",
+      "preferredLanguage": "en-US",
+      "ssn": "686-14-6505",
+      "ssnNA": false
+    },
+    "email": {
+      "emailAddress": "jdoe@example.com",
+      "emailAddressNA": false
+    },
+    "phone": {
+      "type": "MOBILE",
+      "number": "(415) 555-5555"
+    },
+    "address": {
+      "address1": "TX Address",
+      "city": "Houston",
+      "state": "TX",
+      "postalCode": 11111,
+      "since": "6_TO_12_MONTHS",
+      "inServiceArea": true
+    },
+    "statedIncome": {
+      "amount": 1500,
+      "frequency": "BI_WEEKLY"
+    },
+    "memberOfArmedForces": "N"
+  }
+}

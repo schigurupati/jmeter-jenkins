@@ -1,0 +1,58 @@
+{
+  "applicant": {
+    "memberOfArmedForces": "N",
+    "EID": null,
+    "timeZone": "America\/Los_Angeles",
+    "externalIdNA": true,
+    "externalId": null,
+    "isTenantEmployee": {
+      "flag": false
+    },
+    "person": {
+      "firstName": "stephen",
+      "lastName": "curry",
+      "paternalLastName": null,
+      "maternalLastName": null,
+      "middleName": null,
+      "nameSuffix": null,
+      "title": null,
+      "nationality": null,
+      "gender": null,
+      "dateOfBirth": "1980-02-04",
+      "placeOfBirth": null,
+      "countryOfBirth": null,
+      "cityOfBirth": null,
+      "preferredLanguage": "en-US",
+      "ssn": "425-16-2621",
+      "ssnNA": false,
+      "last4Ssn": null
+    },
+    "email": {
+      "emailAddress": "test@listo.com",
+      "emailAddressNA": false
+    },
+    "phone": {
+      "type": "MOBILE",
+      "number": "(415) 555-5555"
+    },
+    "address": {
+      "address1": "3223",
+      "city": "sdsad",
+      "state": "TX",
+      "postalCode": "11111",
+      "since": "6_TO_12_MONTHS",
+      "inServiceArea": false
+    },
+    "statedIncome": {
+      "amount": 3000,
+      "frequency": "MONTHLY"
+    },  
+    "payday": {
+      "statedUsage": "N",
+      "actualUsage": null
+    },
+    "insurance": {
+      "statedUsage": "N"
+    }
+  }
+}

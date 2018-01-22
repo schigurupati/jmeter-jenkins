@@ -1,0 +1,40 @@
+{
+  "applicant": {
+    "hasBankAccount": "N",
+    "inUSSince": "ONE_TO_TWO_YEARS",
+    "homeOwnership": "OWN",
+    "numberOfDependents": "0",
+    "numberOfChildren": "0",
+    "employed": "Y",
+    "otherIncome": "N",
+    "incomeSources": [
+      {
+        "selfEmployed": "N",
+        "incomeType": "AGRICULTURE_FARMING",
+        "employerName": "dsfg",
+        "since": "LESS_THAN_6_MONTHS",
+        "incomeFrequency": "BI_WEEKLY",
+        "takeHomeAmount": "3000"
+      }
+    ],
+    "payTransactionType": "DIRECT_DEPOSIT",
+    "payCheckDestination": null,
+    "monthlyExpenses": {
+      "housing": "0",
+      "car": "0",
+      "phone": "0",
+      "utilities": "0",
+      "payday": "12",
+      "otherExpenses": [
+
+      ]
+    }
+  },
+  "preferredLoan": {
+    "amount": null,
+    "loanTerm": null,
+    "paymentAmount": null,
+    "purpose": "PAY_BILLS",
+    "loanPurposeOther": null
+  }
+}
